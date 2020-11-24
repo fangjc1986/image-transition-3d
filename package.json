@@ -1,16 +1,24 @@
 {
   "name": "image-transition-3d",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "main": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name image-transition-3d --dest lib packages/index.js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
-  },
+  "core-js": "^3.6.5",
+  "less": "^3.12.2",
+  "less-loader": "^7.1.0",
+  "vue": "^2.6.11"
+},
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",

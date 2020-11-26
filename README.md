@@ -147,7 +147,7 @@ Vue.use(ImageTransition3d);
 ```
 ## 问题反馈
 
-- 有任何问题可提出 `issue`
+- 有任何问题可提出 `issue` 或邮件至 fangjc1986@qq.com
 
 ## 仓库
 

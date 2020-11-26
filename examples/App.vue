@@ -51,7 +51,7 @@
                         enterDuration: 1000,
                     }
                 ],
-                useTransitionNames: ['me']
+                useTransitionNames: ['default']
             };
         }
     }

@@ -6,6 +6,13 @@
 
 ## 快速使用
 
+```js
+import Vue from 'vue'
+import ImageTransition3d from "image-transition-3d";
+
+Vue.use(ImageTransition3d);
+```
+
 ```html
 <template>
     <div id="app">
@@ -130,3 +137,7 @@
 ## 问题反馈
 
 - 有任何问题可提出 `issue`
+
+## 仓库
+
+github: https://github.com/fangjc1986/image-transition-3d.git

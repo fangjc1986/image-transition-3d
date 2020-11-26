@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 // 自定义
-import ImageTransition3d from '../packages';
+import ImageTransition3d from "../index";
 
 Vue.use(ImageTransition3d);
 

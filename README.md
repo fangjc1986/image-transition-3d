@@ -6,6 +6,16 @@
 
 ## 快速使用
 
+安装依赖
+```shell script
+npm install image-transition-3d --save
+
+# or
+
+yarn add image-transition-3d
+```
+
+注册组件到 Vue
 ```js
 import Vue from 'vue'
 import ImageTransition3d from "image-transition-3d";
@@ -13,6 +23,7 @@ import ImageTransition3d from "image-transition-3d";
 Vue.use(ImageTransition3d);
 ```
 
+使用
 ```html
 <template>
     <div id="app">
